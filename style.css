@@ -1,5 +1,16 @@
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border: 0;
+  }
+
+/*-------------------------- MENU E HOME ----------------------*/
+
 body{
   background-color: #F6f2f2;
+  font-family: "Raleway", sans-serif;
 }
 
 header{
@@ -11,13 +22,12 @@ header{
   justify-content: space-between;
 }
 
-img{
+#logo{
   height: 8rem;
-  margin-left: 0.5em;
+  margin-left: 3em;
 }
 
 ul{
-  
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -26,10 +36,46 @@ ul{
   color: #FFFFFF;
   list-style: none;
 
-  font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
 
 li{
   margin-right: 2.5rem;
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-home{
+  font-weight: 500;
+  font-size: 2rem;
+  margin-left: 2.5em;
+
+  color: #FF5254;
+}
+
+#b_explore{
+  margin-top: 1.5em;
+  margin-left: 4em;
+  padding: 0.7em 2em 0.7em 2em;
+  width: 8em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: rgba(0,0,0,0.53);
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#b_explore:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+#phone_logo{
+  margin-top: 2em;
+  height: 33em;
 }
