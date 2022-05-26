@@ -1,0 +1,35 @@
+body{
+  background-color: #F6f2f2;
+}
+
+header{
+  background-color: #000000;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img{
+  height: 8rem;
+  margin-left: 0.5em;
+}
+
+ul{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+  
+  color: #FFFFFF;
+  list-style: none;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+li{
+  margin-right: 2.5rem;
+}
