@@ -14,10 +14,10 @@
     <title>SóBora</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <img id="logo" src="img/logo_menu.png" alt="logo" />
       <ul>
-        <li>Início</li>
+        <li onclick="goHome()">Início</li>
         <li>Necessidade</li>
         <li>Solução</li>
         <li>Vantagens</li>
@@ -26,18 +26,18 @@
       </ul>
     </header>
     <main>
-      <section class="home">
+      <section id="home" class="home">
         <div class="text-button">
           <p class="text-home">
             Bora curtir! Bora conhecer lugares <br />
             novos! Bora sair! Vem com a gente. <br />
             Vem pro App. Só Bora!
           </p>
-          <button id="b_explore">Explore</button>
+          <button id="b_explore" onclick="explore()">Explore</button>
         </div>
         <img id="phone_logo" src="img/sb_phone.png" alt="img sobora phone" />
       </section>
-      <section class="necessidade">
+      <section id="forYou" class="necessidade">
         <div id="place_1">
           <p id="text-1">
             Conectar você a novos lugares <br />
@@ -72,5 +72,6 @@
       <section class="depoimentos"></section>
     </main>
     <footer class="contatos"></footer>
+    <script src="./index.js"></script>
   </body>
 </html>
